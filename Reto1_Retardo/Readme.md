@@ -25,3 +25,7 @@ Para lograr este comportamiento sin alterar el esquema de conexiones físicas, s
 
 <video src="./video_reto1.mp4" controls width="100%"></video>
 
+
+
+<video src="./video_reto11.mp4" controls width="100%"></video>
+
