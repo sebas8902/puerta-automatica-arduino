@@ -9,9 +9,9 @@ El proyecto está estructurado de forma modular y progresiva, dividido en carpet
 ## 🗂️ Índice de Módulos y Retos
 
 1. **[`Sensor y servomotor`](./Modulo_Base/):** Montaje inicial del circuito, calibración del servomotor y lectura directa de distancia.
-2. **[`Reto1_Retardo`](./01_Reto1_Retardo/):** Control de temporización con retardo de 3 segundos para paso seguro.
-3. **[`Reto2_Histeresis`](./02_Reto2_Histeresis/):** Implementación de margen de tolerancia (zona muerta) para evitar oscilaciones del motor.
-4. **[`Reto3_Monitoreo_Estados`](./03_Reto3_Monitoreo_Estados/):** Control continuo de estados y monitoreo en tiempo real por el Monitor Serial.
+2. **[`Reto 1`](./Reto1_Retardo/):** Control de temporización con retardo de 3 segundos para paso seguro.
+3. **[`Reto 2`](./Reto2_Histeresis/):** Implementación de margen de tolerancia (zona muerta) para evitar oscilaciones del motor.
+4. **[`Reto 3`](./Reto3_Monitoreo_Estados/):** Control continuo de estados y monitoreo en tiempo real por el Monitor Serial.
 
 
 
