@@ -15,7 +15,7 @@ Esta arquitectura elimina cualquier vibración o conmutación errática en la el
 
 ## 📁 Archivos en esta carpeta  
 
-* `Reto_2.ino`: Código fuente con lógica de histéresis.
-* `evidencias/video_reto2.mp4`: Demostración en video evaluando los márgenes de 15 cm y 25 cm.
+* **[`Codigo Reto 2`](./Reto_2.ino/):**: Código fuente con lógica de histéresis.
+* **[`Videos Reto 2`](./Evidencias/Reto_2.txt/):**: Demostración en video evaluando los márgenes de 15 cm y 25 cm.
 
 
