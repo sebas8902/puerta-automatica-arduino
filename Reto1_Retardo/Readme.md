@@ -21,7 +21,7 @@ Para lograr este comportamiento sin alterar el esquema de conexiones físicas, s
 * `evidencias/video_reto1.mp4`: Demostración en video de la pausa de apertura.
 
 
-## 🎥 Evidencia en Video de la Temporización
+## Evidencia en Video de la Temporización
 
 <video src="./video_reto1.mp4" controls width="100%"></video>
 
