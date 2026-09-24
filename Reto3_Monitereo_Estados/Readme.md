@@ -15,5 +15,5 @@ Este desarrollo resuelve el inconveniente de bloquear el procesador con pausas l
 
 ## 📁 Archivos en esta carpeta
 * **[`Codigo Reto 3`](./Reto_3.ino/):**:Código final optimizado.
-* **[`Videos Reto 3`](./Evidencias/video.txt/):**: Demostración en video con la pantalla del Monitor Serial visible.
+* **[`Videos Reto 3`](./Evidencias/Video_Reto_3.txt/):**: Demostración en video con la pantalla del Monitor Serial visible.
 
