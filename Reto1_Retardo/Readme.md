@@ -17,7 +17,7 @@ Para lograr este comportamiento sin alterar el esquema de conexiones físicas, s
 
 
 ## 📁 Archivos en esta carpeta
-* `Reto_1.ino`: Código fuente con temporización de 3 segundos.
+**[`Reto 1`](./Reto1_Retardo/Reto_1.ino/):** Código fuente con temporización de 3 segundos.
 * `evidencias/video_reto1.mp4`: Demostración en video de la pausa de apertura.
 
 
