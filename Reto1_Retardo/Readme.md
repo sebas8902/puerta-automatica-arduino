@@ -1,14 +1,27 @@
 # Reto 1: Control de Permanencia por Retardo
 
-## Objetivo
-Resolver el problema de cierres prematuros o abruptos de la puerta cuando una persona o vehículo está atravesando el umbral de acceso.
+El primer reto plantea solucionar un problema crítico de seguridad en sistemas de control de acceso: la puerta no puede cerrarse inmediatamente después de detectar la presencia de un objeto, ya que esto podría causar un impacto o colisión física contra personas o vehículos en movimiento.
 
-## Explicación Técnica y Funcionamiento
-1. Se mantiene la lectura básica de distancia con umbral de $15\text{ cm}$.
-2. Se modifica la temporización al final del ciclo incorporando una pausa de `delay(3000)` ($3\text{ segundos}$).
-3. **Comportamiento:** Al detectar un objeto a $\le 15\text{ cm}$, la puerta se abre inmediatamente a $90^\circ$ y el microcontrolador entra en pausa durante 3 segundos enteros.
-4. Esto garantiza un tiempo de paso completamente seguro sin que el mecanismo intente cerrarse interrumpiendo el tránsito.
+El objetivo fue modificar el comportamiento temporal de la lógica de control para garantizar que, una vez activada la apertura, la puerta permanezca abierta durante un intervalo de tiempo seguro de al menos 3 segundos antes de volver a evaluar el entorno.
+
+## Explicación Tecnica y detallada
+
+Para lograr este comportamiento sin alterar el esquema de conexiones físicas, se reestructuró el flujo temporal de la lectura ultrasónica:
+
+1. **Detección Inicial:** El microcontrolador mide la distancia del objeto entrante.
+2. **Apertura e Inmovilización Temporal:** Si la lectura es menor o igual a $15\text{ cm}$, se ordena al servomotor desplazarse a la posición de $90^\circ$ (`PUERTA ABIERTA`) y se ejecuta una instrucción de retardo explícito de 3000 milisegundos (`delay(3000)`).
+3. **Garantía de Tránsito:** Durante estos 3 segundos, el procesador suspende la ejecución de nuevas lecturas de distancia. La puerta queda congelada en su posición abierta, dando el tiempo necesario para que la persona u objeto cruce el umbral de acceso por completo.
+4. **Reevaluación de Entorno:** Cumplido el tiempo de espera, la función vuelve a medir la distancia para verificar si la zona se encuentra despejada; si es así, procede con el cierre seguro de la puerta a $0^\circ$.
+
+
+
 
 ## 📁 Archivos en esta carpeta
 * `Reto_1.ino`: Código fuente con temporización de 3 segundos.
 * `evidencias/video_reto1.mp4`: Demostración en video de la pausa de apertura.
+
+
+## 🎥 Evidencia en Video de la Temporización
+
+<video src="./video_reto1.mp4" controls width="100%"></video>
+
