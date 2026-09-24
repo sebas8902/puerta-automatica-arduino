@@ -19,6 +19,6 @@ Esta versión permite confirmar la precisión del sensor HC-SR04, pero expone la
 
 ## 📂 Archivo del Programa         
 * **[`Codigo Base`](./Base.ino/):** Código ejecutable en Arduino IDE.
-* **[`Imagenes`](./Evidencias/Montaje.png/):** Foto del montaje físico.
+* **[`Imagenes`](./Evidencias/Montaje_Base.png/):** Foto del montaje físico.
 * **[`Video`](./Evidencias/Video_modulo_base.txt/):** Demostración en video.
 
