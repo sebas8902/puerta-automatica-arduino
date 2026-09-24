@@ -28,9 +28,23 @@ El proyecto está estructurado de forma modular y progresiva, dividido en carpet
 | **Servomotor** | GND (Marrón/Negro) | GND | Power | Tierra común |
 
 
+  
+## Autores:  
+
+**Estudiantes:**
+
+* Alberto Fandino
+* Camilo Martinez
+* Martin Castro
+* Sebastian De Luque
+* Sebastian Martinez
+* Steven Santamaria
+* Yeimer Ortiz
 
 
-## 👥 Integrantes
-* **Estudiante:** Sebastian DeLuque Garcia
-* **Asignatura:** Fundamentos de Mecatrónica / Sistemas
-* **Institución:** Corporación Universitaria Americana
+**Asignatura:**
+* Fundamentos de Mecatrónica
+
+
+**Institución:**    
+* Corporación Universitaria Americana
