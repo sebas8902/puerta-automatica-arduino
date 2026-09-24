@@ -14,6 +14,6 @@ Establecer la comunicación básica entre el sensor HC-SR04 y el servomotor en A
 
 ## 📁 Archivos en esta carpeta
 * `Base.ino`: Código ejecutable en Arduino IDE.
-* `evidencias/montaje.jpg`: Foto del montaje físico.
-* `evidencias/video_base.mp4`: Demostración en video.
+* `Evidencias/montaje.jpg`: Foto del montaje físico.
+* `Evidencias/video_base.mp4`: Demostración en video.
 
