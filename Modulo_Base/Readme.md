@@ -18,7 +18,7 @@ Durante la ejecución de este montaje base, la placa procesa la distancia en cic
 Esta versión permite confirmar la precisión del sensor HC-SR04, pero expone la limitación física del sistema: si un objeto pasa demasiado rápido o se detiene justo en el borde de los $15\text{ cm}$, el servomotor reacciona con movimientos bruscos e inestables.   
 
 ## 📂 Archivo del Programa         
-* `Base.ino`: Código ejecutable en Arduino IDE.
-* `Evidencias/montaje.jpg`: Foto del montaje físico.
-* `Evidencias/video_base.mp4`: Demostración en video.
+* **[`Codigo Base`](./Base.ino/):**: Código ejecutable en Arduino IDE.
+* **[`Imagenes`](./Evidencias/Montaje.png/):**: Foto del montaje físico.
+* **[`Video`](./Evidencias/Videos.txt/):**: Demostración en video.
 
