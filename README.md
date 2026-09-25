@@ -73,6 +73,7 @@ Una vez calculada la distancia, el microcontrolador evalúa la posición del obj
 * Sebastian Martinez
 * Steven Santamaria
 * Yeimer Ortiz
+* Alexandro Leones
 
 
 **Asignatura:**
